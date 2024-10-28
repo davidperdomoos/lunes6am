@@ -1,0 +1,45 @@
+/* estilos globales*/
+body{
+    background-color: bisque;
+}
+
+img{
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+
+@media (min-width:576px){ /* celulares horizontales*/
+    body{
+        background-color: aquamarine;
+    }
+
+}
+@media (min-width:768px){ /* ipad en vertical*/
+    body{
+        background-color: chocolate;
+    }
+    img{
+        width: 49%;
+    }
+}
+@media (min-width:992px){ /* ipad horizonatl y equipos de 14 pulgadas */
+    body{
+        background-color: cadetblue;
+    }
+    h1{
+        font-size: 50px;
+        background-color: tomato;
+        color: white;
+        padding: 20px;
+        border-radius: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+@media (min-width: 1200px){
+    body{
+        background-color: crimson;
+    }
+}
+

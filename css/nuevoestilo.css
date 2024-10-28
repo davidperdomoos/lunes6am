@@ -1,0 +1,86 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: peachpuff url(../img/cafelogo.webp);
+    background-size: 200px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255, 255,255,0.5);
+}
+header{
+    height: 150px;
+    text-align: center;
+    background-color: chocolate;
+    color: white;
+    line-height: 150px;
+}
+section{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2%;
+    row-gap: 20px;
+}
+article{
+    box-shadow: 0 0 15px 0 #999;
+    border-radius: 5px;
+    padding: 15px 15px;
+    width: 49%;
+}
+article h1{
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px 5px 0 0;
+}
+.rojo{
+    background-color: darkred;
+}
+.azul{
+    background-color: darkblue;
+}
+
+.colores{
+    color: green;
+    color: blue;
+    color: red;
+    color: yellow;
+    color: black;
+    color: white;
+    color: gray;
+    color: orange;
+}
+.colorRGB{
+    color: rgb(red, green, blue);
+    color: rgb(0,0,255);
+    color: rgb(255,0,0);
+    color: rgb(0,255,0);
+    color: rgb(0,0,0);
+    color: rgb(255,255,255);
+    color: rgb(155,155,155);
+    color: rgb(50,50,50);
+    color: rgb(255, 150, 0);
+}
+
+.colorHexadecimal{
+    color: #0000FF;
+    color: #FF0000;
+    color: #00FF00;
+    color: #000000;
+    color: #FFFFFF;
+    color: #999999;
+    color: #FF9900;
+    color: #9933FF;
+    color: #93F;
+    color: #777;
+    color: #9d4d32;
+}
+.coloresRGBA{
+    color: rgba(255,25,48,0.4); /* canal alpha o transparencia */
+}

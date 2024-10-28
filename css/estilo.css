@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* para fuente todo el sitio */
+    background-color: rgb(249, 202, 183);
+    background-image: url(../img/feliz.avif);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+
+}
+
+.todo {
+    width: 1200px;
+    background-color: white;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 0 15px 0 #400813;
+    box-shadow: 0 0 15px 0 #400813;
+}
+
+header {
+    padding: 20px;
+    background: #fff4d8 url(../img/cafelogo.webp) no-repeat center !important;
+    background-size: 290px !important;
+}
+
+h1 {
+    background-color: brown;
+    /* color del fondo */
+    color: white;
+    /* color de la letra */
+    text-align: center;
+    text-shadow: 0 0 4px #000000;
+    font-family: "Satisfy", cursive;
+}
+
+p {
+    text-align: justify;
+    color: gray;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+article h1 {
+    background-color: tomato;
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: left;
+    border-bottom: 4px solid black;
+}
+
+#logo {
+    background-color: tomato;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    -webkit-border-radius: 100px 0;
+    border-radius: 100px 0;
+    -webkit-box-shadow: 0 0 15px 0 #400813;
+    box-shadow: 0 0 15px 0 #400813;
+
+
+    transition: all 750ms ease-in-out;
+}
+
+#logo:hover {
+    background-color: #000000;
+    -moz-transform: scale(1.3) rotate(360deg);
+    -webkit-transform: scale(1.3) rotate(360deg);
+    -o-transform: scale(1.3) rotate(360deg);
+    -ms-transform: scale(1.3) rotate(360deg);
+    transform: scale(1.3) rotate(360deg);
+
+    -webkit-transition: all 750ms ease-in-out;
+-moz-transition: all 750ms ease-in-out;
+-ms-transition: all 750ms ease-in-out;
+-o-transition: all 750ms ease-in-out;
+transition: all 750ms ease-in-out;
+}
+
+.destacado {
+    width: 70%;
+    margin-left: 20%;
+    text-align: right;
+    font-style: italic;
+    color: brown;
+}
+
+.caja {
+    background-color: aqua;
+    /*
+    padding-top: 50px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding: 50px 60px 50px 60px;
+    padding: 50px 60px;*/
+    padding: 40px;
+
+    /*margin-top: 150px;
+    margin-right: 50px;
+    margin-bottom: 200px;
+    margin-left: 80px;
+    margin: 100px 50px 80px 50px;
+    margin: 100px 50px;*/
+    margin: 40px;
+
+    border-top: 7px solid red;
+    border-right: 15px dotted greenyellow;
+    border-bottom: orange 5px double;
+    border-left: dashed purple 9px;
+}
+
+nav li {
+    display: inline;
+
+}
+
+nav a:link,
+nav a:visited {
+    color: orange;
+    text-decoration: none;
+    padding: 6px 10px;
+    border: solid 1px black;
+
+    -webkit-transition: all 750ms ease-in-out;
+    -moz-transition: all 750ms ease-in-out;
+    -ms-transition: all 750ms ease-in-out;
+    -o-transition: all 750ms ease-in-out;
+    transition: all 750ms ease-in-out;
+}
+
+nav a:hover {
+    background-color: tomato;
+    color: white;
+
+    -webkit-transition: all 750ms ease-in-out;
+    -moz-transition: all 750ms ease-in-out;
+    -ms-transition: all 750ms ease-in-out;
+    -o-transition: all 750ms ease-in-out;
+    transition: all 750ms ease-in-out;
+}
+
+nav a:active {
+    background-color: black;
+}
